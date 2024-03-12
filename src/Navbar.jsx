@@ -1,7 +1,37 @@
 const Navbar = () => {
 	return (
 		<nav className="flex py-2">
-			<div>Links</div>
+			<div className="flex">
+				<h1>Logo</h1>
+				<ul className="flex space-x-7 py-1.5 font-semibold text-md tracking-tighter text-black ">
+					<li>
+						<a href="#" className="opacity-70 hover:opacity-100">
+							Product
+						</a>
+					</li>
+					<li>
+						<a href="#" className="opacity-70 hover:opacity-100">
+							Pricing
+						</a>
+					</li>
+					<li>
+						<a href="#" className="opacity-70 hover:opacity-100">
+							Enterprise
+						</a>
+					</li>
+					<li>
+						<a href="#" className="opacity-70 hover:opacity-100">
+							Resources and Support
+						</a>
+					</li>
+
+					<li>
+						<a href="#" className="opacity-70 hover:opacity-100">
+							Public API Network
+						</a>
+					</li>
+				</ul>
+			</div>
 			<div className="px-2">
 				<input
 					placeholder="Search Postman"
