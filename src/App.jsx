@@ -7,10 +7,10 @@ import HeroBar from './HeroBar';
 
 function App() {
 	return (
-		<>
+		<div>
 			<Navbar />
 			<HeroBar />
-		</>
+		</div>
 	);
 }
 
