@@ -6,6 +6,7 @@ const Navbar = () => {
 		<nav className="flex py-2 px-3 justify-between">
 			<div className="flex space-x-3">
 				<img src={logo} alt="" className="h-8 w-8 " />
+				{/* desktop navBar display */}
 				<div className="md:flex space-x-8 hidden font-semibold tracking-tighter">
 					<div className="hover:opacity-100 opacity-60">
 						<a href="#">Product</a>
@@ -24,15 +25,18 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
+			{/* <div>Seacrh bar</div> */}
+
+			{/* Mobile navbar Display */}
 			<div className="space-x-6 px-3 py-2 md:py-0.5">
 				<FontAwesomeIcon
 					icon="fa-solid fa-magnifying-glass"
-					className="md:hidden"
+					className="md:hidden opacity-45"
 				/>
 				<FontAwesomeIcon
 					icon="fa-solid fa-bars"
 					size="lg"
-					className="md:hidden"
+					className="md:hidden opacity-45"
 				/>
 				<div className="hidden md:block text-xs tracking-tighter space-x-2">
 					<button className="border font-medium border-gray-400 border-opacity-40 py-2 px-3.5 rounded-md hover:border-black hover:border-opacity-50">
