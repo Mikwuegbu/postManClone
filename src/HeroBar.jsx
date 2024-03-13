@@ -1,9 +1,11 @@
 import { ReactTyped } from 'react-typed';
+import aeroSpace from './assets/aeroSpace.svg';
+import heroPageMobile from './assets/homePageHeroMobile.png';
 
 const HeroBar = () => {
 	return (
 		<>
-			<div className="w-4/6 ml-10 pt-20">
+			<div className="w-4/6 ml-12 pt-20">
 				<div className="text-4xl font-semibold font-mono">
 					<ReactTyped
 						strings={[
@@ -33,12 +35,16 @@ const HeroBar = () => {
 					<input
 						type="email"
 						placeholder="mstephen130@example.com"
-						className="border border-orange-500 px-2 py-1.5 text-sm rounded-md"
+						className="border border-orange-500 px-2 py-2 text-sm rounded-md"
 					/>
 					<button className="text-white font-bold bg-orange-500 hover:bg-orange-600 py-2 px-3.5 rounded-md text-sm">
 						Sign up for Free
 					</button>
 				</div>
+			</div>
+			<div className="px-10 ">
+				<img src={aeroSpace} alt="" className="ml-32" />
+				<img src={heroPageMobile} className="py-10 px-2" />
 			</div>
 		</>
 	);
