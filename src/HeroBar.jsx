@@ -44,18 +44,19 @@ const HeroBar = () => {
 						<button className="lg:hidden text-white font-bold bg-orange-500 hover:bg-orange-600 py-2 px-3.5 rounded-md text-sm">
 							Sign up for Free
 						</button>
-						<div className="hidden lg:block">
-							<div className="flex w-full">
-								<input
-									type="email"
-									placeholder="mstephen130@example.com"
-									className="border border-orange-500 px-4 py-2 text-xs rounded-l-md"
-								/>
-								<button className=" text-xs text-white font-bold bg-orange-500 hover:bg-orange-600 py-2.5 px-3.5 rounded-r-md">
-									Sign up for Free
-								</button>
-							</div>
+
+						{/* Fixed the responsive issue in the desktop Mode of this section */}
+						<div className="hidden lg:flex items-center border border-orange-400 rounded-r-md min-w-max">
+							<input
+								type="email"
+								placeholder="mstephen130@example.com"
+								className=" px-4 py-2.5 text-xs rounded-l-md flex-grow"
+							/>
+							<button className="text-xs md:text-sm lg:text-xs text-white font-bold bg-orange-500 hover:bg-orange-600 py-2.5  px-4 lg:px-4 rounded-r-md min-w-max">
+								Sign up for Free
+							</button>
 						</div>
+
 						<div className="hidden md:block space-y-1">
 							<div className="text-xs font-bold opacity-70">
 								Download the desktop app for
