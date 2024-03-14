@@ -8,7 +8,7 @@ const HeroBar = () => {
 	return (
 		<div className="">
 			<div className="flex">
-				<div className="w-4/6 md:w-4/12 ml-12 md:ml-6 pt-20 md:pt-40">
+				<div className="w-4/6 md:w-4/12 ml-12 md:ml-6 pt-20 lg:pt-72 md:pt-40 lg:ml-36 lg:w-3/6">
 					<div className="text-4xl font-semibold font-mono">
 						<ReactTyped
 							strings={[
@@ -31,18 +31,31 @@ const HeroBar = () => {
 						APIs together
 					</div>
 					<div className="text-base font-normal pt-2">
-						Over 30 million developers use Postman. Get started by <br />
+						Over 30 million developers use Postman. Get started by{' '}
+						<br className="lg:hidden" />
 						signing up or downloading the desktop app.
 					</div>
 					<div className="flex flex-col  space-y-6 md:space-y-4 py-8 md:py-6 md:w-11/12">
 						<input
 							type="email"
 							placeholder="mstephen130@example.com"
-							className="border border-orange-500 px-2 py-2 text-sm rounded-md"
+							className="border border-orange-500 px-2 py-2 text-sm rounded-md lg:hidden"
 						/>
-						<button className="text-white font-bold bg-orange-500 hover:bg-orange-600 py-2 px-3.5 rounded-md text-sm">
+						<button className="lg:hidden text-white font-bold bg-orange-500 hover:bg-orange-600 py-2 px-3.5 rounded-md text-sm">
 							Sign up for Free
 						</button>
+						<div className="hidden lg:block">
+							<div className="flex w-full">
+								<input
+									type="email"
+									placeholder="mstephen130@example.com"
+									className="border border-orange-500 px-4 py-2 text-xs rounded-l-md"
+								/>
+								<button className=" text-xs text-white font-bold bg-orange-500 hover:bg-orange-600 py-2.5 px-3.5 rounded-r-md">
+									Sign up for Free
+								</button>
+							</div>
+						</div>
 						<div className="hidden md:block space-y-1">
 							<div className="text-xs font-bold opacity-70">
 								Download the desktop app for
@@ -71,7 +84,7 @@ const HeroBar = () => {
 					<img
 						src={heropage}
 						alt="HeroPage"
-						className="pt-4 lg:static relative left-60 -z-50 lg:w-4/5 lg:ml-48"
+						className="pt-4 lg:static relative left-60 -z-50 lg:w-5/5 lg:-ml-2"
 					/>
 				</div>
 			</div>

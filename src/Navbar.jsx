@@ -28,16 +28,16 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
-			<div className="relative">
+			<div className="relative hidden lg:block">
 				<FontAwesomeIcon
 					icon="fa-solid fa-magnifying-glass"
 					size="sm"
-					className="hidden lg:block absolute bottom-2.5 left-7 opacity-45 overflow-auto"
+					className="absolute bottom-2.5 left-7 opacity-45 overflow-auto"
 				/>
 				<input
 					type="email"
-					placeholder="       Search Postman"
-					className="hidden cursor-pointer hover: lg:block border border-gray-300 px-8 py-2 bg-gray-500 bg-opacity-10 mt-1 font-semibold  placeholder-black placeholder-opacity-55 text-xs rounded-md hover:border-black hover:border-opacity-90"
+					placeholder="           Search Postman"
+					className=" cursor-pointer border border-gray-300 px-5 py-2 bg-gray-500 bg-opacity-10 mt-1.5 font-semibold  placeholder-black placeholder-opacity-55 text-xs rounded-md hover:border-black hover:border-opacity-90"
 				/>
 			</div>
 
