@@ -2,6 +2,8 @@ import tools from './assets/tools.svg';
 import repos from './assets/repository.svg';
 import workspace from './assets/workspace.svg';
 import governance from './assets/governance.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import myIcons from './myIcons';
 
 const About = () => {
 	return (
@@ -77,6 +79,449 @@ const About = () => {
 						Learn more
 					</button>
 				</a>
+			</div>
+			<div>
+				<div className="pt-16 px-3.5 md:px-8">
+					<div className="text-2xl font-semibold pb-3">
+						What&apos;s happening on Postman
+					</div>
+					<div className="text-base">
+						Browse the largest network of APIs and share what you build with
+						developers across the planet.
+					</div>
+					<a href="#" className="">
+						<span className="text-blue-700 hover:border-blue-700 hover:border-b">
+							Explore the Public API Network &nbsp;
+							<FontAwesomeIcon
+								icon="fa-solid fa-arrow-right"
+								size="sm"
+								style={{ color: '#0000ff' }}
+							/>
+						</span>
+					</a>
+				</div>
+				<ul className="pt-4 md:pt-8 px-3.5 space-y-4 md:grid md:grid-cols-2">
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.upslogo} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.green} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.talon} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.identity} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.intel} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.africa} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.space} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.dolby} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.developer} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li className="flex border hover:cursor-pointer mx-1 py-5 px-4 rounded-md hover:shadow-md hover:bg-gray-100 hover:bg-opacity-45">
+						<div className="w-14">
+							<img src={myIcons.space} alt="ups-logo" className="" />
+						</div>
+						<div className="text-xs space-y-2">
+							<div className="text-base font-semibold flex pl-5">
+								UPS APIs{' '}
+								<span className="ml-40 hover:opacity-55">
+									<FontAwesomeIcon icon="fa-solid fa-link" size="xs" />
+								</span>
+							</div>
+							<div className="space-y-2 px-4 ml-1">
+								This workspace contains resources that you can demo and share
+								with customers and partners.
+								<div className="pt-2 opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-boxes-stacked"
+										size="sm"
+										className="pr-2"
+									/>
+									Workspace{' '}
+									<span className="pl-3">
+										By UPS Developers{' '}
+										<FontAwesomeIcon
+											icon="fa-solid fa-circle-check"
+											size="sm"
+											style={{ color: '#0000ff' }}
+											className="pl-1"
+										/>
+									</span>
+								</div>
+								<div className="opacity-80">
+									<FontAwesomeIcon
+										icon="fa-solid fa-eye"
+										size="sm"
+										className="pr-2"
+									/>
+									20+ watchers <span className="pl-4"> 10k+ views</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
