@@ -6,20 +6,20 @@ import governance from './assets/governance.svg';
 const About = () => {
 	return (
 		<div className="">
-			<div className="bg-gray-100 bg-opacity-75">
-				<div className="px-5">
+			<div className="bg-gray-100 bg-opacity-65">
+				<div className="px-5 md:px-14">
 					<div className="text-2xl font-semibold tracking-tight pb-2 pt-7">
 						What is PostMan
 					</div>
-					<div className="text-base tracking-tight text-justify opacity-80">
+					<div className="text-base tracking-tight text-justify opacity-80 md:w-2/3 md:text-sm">
 						Postman is an API platform for building and using APIs. Postman
 						simplifies each step of the API lifecycle and streamlines
 						collaboration so you can create better APIs—faster.
 					</div>
 				</div>
 				<div className="">
-					<div className="flex flex-wrap py-10 gap-3 justify-center">
-						<div className="w-5/12 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
+					<div className="flex flex-wrap py-10 gap-3 md:gap-6 justify-center">
+						<div className="w-5/12 md:w-6/11 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
 							<a href="#" className="py-4 ">
 								<img src={tools} alt="tools-icon" className="py-2" />
 								<div className="text-lg font-semibold py-2">API Tools</div>
@@ -30,7 +30,7 @@ const About = () => {
 								</div>
 							</a>
 						</div>
-						<div className="w-5/12 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
+						<div className="w-5/12 md:w-6/11 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
 							{' '}
 							<a href="#" className="">
 								<img src={repos} alt="repo-icon" className="py-2" />
@@ -41,7 +41,7 @@ const About = () => {
 								</div>
 							</a>
 						</div>
-						<div className="w-5/12 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
+						<div className="w-5/12 md:w-6/11 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
 							<a href="#" className="py-4">
 								<img src={workspace} alt="space-icon" className="py-2" />
 								<div className="text-lg font-semibold py-2">Workspaces</div>
@@ -51,7 +51,7 @@ const About = () => {
 								</div>
 							</a>
 						</div>
-						<div className="w-5/12 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
+						<div className="w-5/12 md:w-6/11 bg-white px-3.5 py-6 hover:shadow-md rounded-md">
 							<a href="#" className="w-1/2 bg-white py-4">
 								<img
 									src={governance}
