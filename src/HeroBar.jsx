@@ -93,7 +93,7 @@ const HeroBar = () => {
 				<img
 					src={aeroSpace}
 					alt=""
-					className="ml-32 md:h-44 md:absolute md:-top-36 md:right-14 md:-z-40 md:mt-20"
+					className="ml-32 md:h-44 lg:h-56 md:absolute md:-top-36 lg:-top-48 md:right-14 lg:right-24 md:-z-40 md:mt-20 lg:mt-32"
 				/>
 				<img src={heroPageMobile} className="py-10 px-2 md:hidden" />
 			</div>
