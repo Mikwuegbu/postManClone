@@ -7,6 +7,9 @@ import intel from './assets/intel.png';
 import space from './assets/space.png';
 import talon from './assets/talon.png';
 import upslogo from './assets/upsLogo.jpg';
+import post_24 from './assets/24-logo.svg';
+import coin from './assets/coin.png';
+import footerHomepage from './assets/homepageFooter.svg';
 
 const myIcons = {
 	africa,
@@ -18,6 +21,9 @@ const myIcons = {
 	space,
 	talon,
 	upslogo,
+	post_24,
+	coin,
+	footerHomepage,
 };
 
 export default myIcons;

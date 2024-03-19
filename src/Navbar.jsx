@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
 	return (
-		<nav className="flex py-2 px-3 justify-between fixed top-0 bg-white w-full">
+		<nav className="flex py-2 px-3 justify-between fixed top-0 bg-white w-full z-50">
 			<div className="flex space-x-3">
 				<img src={logo} alt="" className="h-8 w-8 " />
 				{/* desktop navBar display */}
@@ -50,7 +50,8 @@ const Navbar = () => {
 				<FontAwesomeIcon
 					icon="fa-solid fa-bars"
 					size="lg"
-					className="md:hidden opacity-45"
+					id="menuBar"
+					className="md:hidden opacity-45 cursor-pointer"
 				/>
 				<div className="hidden md:block text-xs tracking-tighter space-x-2">
 					<FontAwesomeIcon
