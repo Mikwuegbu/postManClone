@@ -4,16 +4,17 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import HeroBar from './HeroBar';
 import About from './About';
-import LayoutComponent from './LayoutComponent';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 function App() {
 	return (
-		<LayoutComponent>
+		<div>
+			<Navbar />
 			<HeroBar />
 			<About />
 			<Footer />
-		</LayoutComponent>
+		</div>
 	);
 }
 

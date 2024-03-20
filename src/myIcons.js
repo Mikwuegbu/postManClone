@@ -10,6 +10,7 @@ import upslogo from './assets/upsLogo.jpg';
 import post_24 from './assets/24-logo.svg';
 import coin from './assets/coin.png';
 import footerHomepage from './assets/homepageFooter.svg';
+import footerimage from './assets/footerimage.svg';
 
 const myIcons = {
 	africa,
@@ -24,6 +25,7 @@ const myIcons = {
 	post_24,
 	coin,
 	footerHomepage,
+	footerimage,
 };
 
 export default myIcons;
