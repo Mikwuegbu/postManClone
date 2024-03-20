@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
 	return (
 		<div>
-			<div className="py-16 px-10 md:px-4 mt-12 justify-center bg-gray-100 bg-opacity-70 md:relative">
+			<div className="py-16 px-10 md:px-4 mt-12 justify-center lg:py-24 bg-gray-100 bg-opacity-70 md:relative">
 				<div className="flex flex-col px-3.5">
 					<div className="text-xl font-semibold text-justify pb-4 lg:ml-24">
 						Get started with Postman
@@ -34,9 +34,9 @@ const Footer = () => {
 					className="mt-6 px-2 md:absolute md:w-[450px] lg:w-[600px] lg:top-8  lg:right-36 md:top-14 md:right-8"
 				/>
 			</div>
-			<div className="px-6 py-8">
-				<div className="grid text-sm grid-cols-2 md:grid-cols-4  md:gap-x-10 gap-y-10 gap-x-14">
-					<ul className="space-y-2 ">
+			<div className="px-6 py-8 md:px-10">
+				<div className="grid text-sm grid-cols-2 md:grid-cols-4 md:gap-x-4 md:gap-y-4 gap-y-10 gap-x-14">
+					<ul className="space-y-2">
 						<li className="font-semibold text-base">Product</li>
 						<li className="hover:text-blue-500">
 							<a href="#">What is Postman?</a>
@@ -71,7 +71,7 @@ const Footer = () => {
 					</ul>
 
 					<ul className="space-y-2">
-						<li className="font-semibold">Company</li>
+						<li className="font-semibold text-base">Company</li>
 						<li className="hover:text-blue-500">
 							<a href="#">About</a>
 						</li>
@@ -89,7 +89,7 @@ const Footer = () => {
 						</li>
 					</ul>
 					<ul className="space-y-2">
-						<li className="font-semibold">Legal and Security</li>
+						<li className="font-semibold text-base">Legal and Security</li>
 						<li className="hover:text-blue-500">
 							<a href="#">Terms of Service</a>
 						</li>
@@ -107,7 +107,7 @@ const Footer = () => {
 						</li>
 					</ul>
 					<ul className="space-y-2">
-						<li className="font-semibold">API Categories</li>
+						<li className="font-semibold text-base">API Categories</li>
 						<li className="hover:text-blue-500">
 							<a href="#">E-commerce</a>
 						</li>
@@ -125,7 +125,7 @@ const Footer = () => {
 						</li>
 					</ul>
 					<ul className="space-y-2">
-						<li className="font-semibold">Explore public</li>
+						<li className="font-semibold text-base">Explore public</li>
 						<li className="hover:text-blue-500">
 							<a href="#">Collections</a>
 						</li>
@@ -137,25 +137,63 @@ const Footer = () => {
 						</li>
 					</ul>
 					<ul className="space-y-2">
-						<li className="font-semibold">Social</li>
+						<li className="font-semibold text-base">Social</li>
 						<li className="hover:text-blue-500">
-							<a href="#">Twitter</a>
+							<a href="#" className="">
+								<FontAwesomeIcon
+									icon="fa-brands fa-twitter"
+									style={{ color: '#0000ff' }}
+									className="pr-1"
+								/>
+								Twitter
+							</a>
 						</li>
 						<li className="hover:text-blue-500">
-							<a href="#">LinkedIn</a>
+							<a href="#">
+								<FontAwesomeIcon
+									icon="fa-brands fa-linkedin"
+									size="lg"
+									style={{ color: '#3e81ca' }}
+									className="pr-1"
+								/>
+								LinkedIn
+							</a>
 						</li>
 						<li className="hover:text-blue-500">
-							<a href="#">Github</a>
+							<a href="#">
+								{' '}
+								<FontAwesomeIcon
+									icon="fa-brands fa-github"
+									size="lg"
+									className="pr-1"
+								/>
+								Github
+							</a>
 						</li>
 						<li className="hover:text-blue-500">
-							<a href="#">Youtube</a>
+							<a href="#">
+								<FontAwesomeIcon
+									icon="fa-brands fa-youtube"
+									size="lg"
+									style={{ color: '#ff0000' }}
+									className="pr-1"
+								/>
+								Youtube
+							</a>
 						</li>
 						<li className="hover:text-blue-500">
-							<a href="#">Twitch</a>
+							<a href="#">
+								<FontAwesomeIcon
+									icon="fa-brands fa-twitch"
+									size="lg"
+									className="pr-1"
+								/>
+								Twitch
+							</a>
 						</li>
 					</ul>
 				</div>
-				<div className="flex justify-center flex-col items-center pb-10">
+				<div className="md:hidden flex justify-center flex-col items-center pb-10">
 					<img
 						src={myIcons.footerimage}
 						alt="footerimage"
