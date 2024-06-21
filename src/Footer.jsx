@@ -1,5 +1,5 @@
-import { footerHomepage, footerimage } from './myIcons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import myIcons from './myIcons';
 
 const Footer = () => {
 	return (
@@ -30,7 +30,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<img
-					src={footerHomepage}
+					src={myIcons.footerHome}
 					className="mt-6 px-2 md:absolute md:w-[450px] lg:w-[600px] lg:top-8  lg:right-36 md:top-14 md:right-8"
 				/>
 			</div>
@@ -195,7 +195,7 @@ const Footer = () => {
 				</div>
 				<div className="md:hidden flex justify-center flex-col items-center pb-10">
 					<img
-						src={footerimage}
+						src={myIcons.footer}
 						alt="footerimage"
 						className="pt-16 h-72 w-72"
 					/>
