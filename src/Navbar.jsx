@@ -17,7 +17,7 @@ const Navbar = () => {
 					<div className="hover:opacity-100 opacity-60 hidden lg:block">
 						<a href="#">Enterprise</a>
 					</div>
-					<div className="hover:opacity-100 opacity-60 hidden lg:block">
+					<div className="hover:opacity-100 opacity-60 hidden lg:block ">
 						<a href="#">Resources and Support</a>
 					</div>
 					<div className="hover:opacity-100 opacity-60">
@@ -32,12 +32,12 @@ const Navbar = () => {
 				<FontAwesomeIcon
 					icon="fa-solid fa-magnifying-glass"
 					size="sm"
-					className="absolute bottom-2.5 left-7 opacity-45 overflow-auto"
+					className="absolute bottom-0 top-4 left-7 opacity-45 overflow-auto"
 				/>
 				<input
 					type="email"
 					placeholder="           Search Postman"
-					className=" cursor-pointer border border-gray-300 px-5 py-2 bg-gray-500 bg-opacity-10 mt-1.5 font-semibold  placeholder-black placeholder-opacity-55 text-xs rounded-md hover:border-black hover:border-opacity-90"
+					className="cursor-pointer border border-gray-300 px-5 py-2 bg-gray-500 bg-opacity-10 mt-1.5 font-semibold  placeholder-black placeholder-opacity-55 text-xs rounded-md hover:border-black hover:border-opacity-90"
 				/>
 			</div>
 
